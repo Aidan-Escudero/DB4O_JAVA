@@ -21,7 +21,7 @@ public class ArticuloDAO {
     private Connection cn;
 
     // COMPORTAMIENTOS
-    public ArticuloDAO(Articulo art, Conexion cn) {
+    public ArticuloDAO(Connection cn) {
         this.cn = Conexion.conectar();
     }
 
