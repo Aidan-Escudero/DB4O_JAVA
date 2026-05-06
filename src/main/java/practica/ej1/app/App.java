@@ -18,6 +18,8 @@ public class App {
 
         ventana.setVisible(true);
         ventana.setLocationRelativeTo(null); // Sale centrada
+
+        // Comentario de prueba
     }
 
 }
